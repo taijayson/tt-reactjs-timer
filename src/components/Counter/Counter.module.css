@@ -1,3 +1,68 @@
 .counter {
-  color: aqua;
+  color: rgb(236, 152, 173);
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.buttonStartStop {
+  margin-bottom: 15px;
+  width: 150px;
+  height: 40px;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.buttonsWaitResWrap {
+  text-align: center;
+}
+
+.buttonWait {
+  margin-right: 15px;
+  width: 100px;
+  height: 40px;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.buttonRes {
+  width: 100px;
+  height: 40px;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.buttonWait:hover,
+.buttonWait:focus {
+  background-color: rgba(238, 65, 117, 0.8);
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(238, 59, 157, 0.8);
+}
+
+.buttonRes:hover,
+.buttonRes:focus {
+  background-color: rgba(223, 212, 58, 0.8);
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(190, 238, 59, 0.8);
+}
+
+.buttonStartStop:hover,
+.buttonStartStop:focus {
+  background-color: rgba(76, 65, 238, 0.8);
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(71, 59, 238, 0.8);
 }

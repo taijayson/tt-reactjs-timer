@@ -51,9 +51,19 @@ export default function Counter() {
       <div className={styles.counter}>
         {new Date(time).toISOString().slice(11, 19)}
       </div>
-      <button onClick={startStop}>START/STOP</button>
-      <button onClick={wait}>WAIT</button>
-      <button onClick={reset}>RESET</button>
+      <div className={styles.buttonsWrap}>
+        <button className={styles.buttonStartStop} onClick={startStop}>
+          START/STOP
+        </button>
+        <div className={styles.buttonsWaitResWrap}>
+          <button className={styles.buttonWait} onClick={wait}>
+            WAIT
+          </button>
+          <button className={styles.buttonRes} onClick={reset}>
+            RESET
+          </button>
+        </div>
+      </div>
     </>
   );
 }
